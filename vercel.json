@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "builds": [
+  "functions": [
     {
       "src": "*.php",
       "use": "vercel-php@0.3.6"
