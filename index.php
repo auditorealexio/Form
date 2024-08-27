@@ -2,7 +2,7 @@
 
 ob_start();
 
-$conn  = new mysqli("jesuschristchurch.mysql.database.azure.com","jesuschristchurch","Lomica100@","home");
+$conn  = new mysqli("testserver1232.mysql.database.azure.com","testserver","Lomica100@","home");
 
 // Check connection
 if ($conn  -> connect_errno) {
