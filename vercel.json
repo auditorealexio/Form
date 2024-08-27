@@ -6,11 +6,6 @@
       "use": "vercel-php@0.3.6"
     }
   ],
-  "functions": {
-    "api/*.php": {
-      "runtime": "vercel-php@0.3.6"
-    }
-  },
   "routes": [
     { "src": "/index.php", "dest": "/index.php" },
     { "src": "/contact.php", "dest": "/contact.php" }
